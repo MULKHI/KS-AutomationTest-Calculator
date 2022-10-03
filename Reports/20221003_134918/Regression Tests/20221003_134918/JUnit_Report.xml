@@ -1,0 +1,461 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="Regression Tests" time="209.516" tests="6" failures="0" errors="0">
+   <testsuite name="Regression Tests" tests="6" failures="0" errors="0" time="209.516" skipped="0" timestamp="2022-10-03 13:49:33" hostname="user - Putra" id="Test Suites/Regression Tests">
+      <properties>
+         <property name="deviceName" value="realme RMX2180 (Android 11)"/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="D:\\MyProject Katalon\\eduCalculator\\Reports\\20221003_134918\\Regression Tests\\20221003_134918"/>
+         <property name="logFiles" value="D:\\MyProject Katalon\\eduCalculator\\Reports\\20221003_134918\\Regression Tests\\20221003_134918\\appium.log, D:\\MyProject Katalon\\eduCalculator\\Reports\\20221003_134918\\Regression Tests\\20221003_134918\\execution0.log"/>
+         <property name="attachments" value="keyes\keyes-screenshot.png, keyes\keyes-screenshot.png, keyes\keyes-screenshot.png"/>
+         <property name="hostName" value="user - Putra"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="appiumServerStatus" value="{&quot;value&quot;:{&quot;build&quot;:{&quot;version&quot;:&quot;1.22.3&quot;}},&quot;sessionId&quot;:null,&quot;status&quot;:0}"/>
+         <property name="katalonVersion" value="8.5.1.208"/>
+         <property name="deviceOS" value="Android"/>
+         <property name="appiumVersion" value="1.22.3"/>
+         <property name="deviceModel" value="RMX2180"/>
+         <property name="hostAddress" value="192.168.206.169"/>
+         <property name="deviceManufacturer" value="realme"/>
+         <property name="deviceId" value="QWDEEMUOJRYDQSLV"/>
+         <property name="deviceName" value="realme RMX2180 (Android 11)"/>
+         <property name="deviceOSVersion" value="11"/>
+      </properties>
+      <testcase name="Test Cases/Calculator/ChooseTheme/ChooseTheme_Dark" time="60.49" classname="Test Cases/Calculator/ChooseTheme/ChooseTheme_Dark" status="PASSED">
+         <system-out><![CDATA[2022-10-03 13:49:33 - [TEST_CASE][PASSED] - Test Cases/Calculator/ChooseTheme/ChooseTheme_Dark: Test Cases/Calculator/ChooseTheme/ChooseTheme_Dark
+
+2022-10-03 13:49:34 - [TEST_STEP][PASSED] - comment("Story: Change Dark Theme"): Story: Change Dark Theme
+
+2022-10-03 13:49:34 - [MESSAGE][INFO] - Story: Change Dark Theme
+
+2022-10-03 13:49:34 - [TEST_STEP][PASSED] - comment("Given that user has started an application"): Given that user has started an application
+
+2022-10-03 13:49:34 - [MESSAGE][INFO] - Given that user has started an application
+
+2022-10-03 13:49:34 - [TEST_STEP][PASSED] - startApplication("MobileApp/Calculator_v8.1.apk", false): Started app at: 'D:\MyProject Katalon\eduCalculator\MobileApp\Calculator_v8.1.apk'
+
+2022-10-03 13:49:34 - [MESSAGE][INFO] - User set preference: ['Activity', 'com.google.android.calculator']
+
+2022-10-03 13:49:34 - [MESSAGE][INFO] - User set preference: ['Package', 'com.google.android.calculator']
+
+2022-10-03 13:49:34 - [MESSAGE][INFO] - User set preference: ['noReset', 'true']
+
+2022-10-03 13:49:34 - [MESSAGE][INFO] - User set preference: ['deviceId', 'QWDEEMUOJRYDQSLV']
+
+2022-10-03 13:49:34 - [MESSAGE][INFO] - User set preference: ['appWaitDuration', '3,000']
+
+2022-10-03 13:49:37 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-10-03 13:49:55 - [MESSAGE][INFO] - Appium server started on port 1,529
+
+2022-10-03 13:50:21 - [MESSAGE][PASSED] - Started app at: 'D:\MyProject Katalon\eduCalculator\MobileApp\Calculator_v8.1.apk'
+
+2022-10-03 13:50:21 - [TEST_STEP][PASSED] - comment("When user change theme to dark"): When user change theme to dark
+
+2022-10-03 13:50:21 - [MESSAGE][INFO] - When user change theme to dark
+
+2022-10-03 13:50:21 - [TEST_STEP][PASSED] - tap(findTestObject("ChooseTheme/dotThree_Button"), 0): Tapped on element 'Object Repository/ChooseTheme/dotThree_Button'
+
+2022-10-03 13:50:21 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-03 13:50:22 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ChooseTheme/dotThree_Button'
+
+2022-10-03 13:50:22 - [TEST_STEP][PASSED] - tap(findTestObject("ChooseTheme/Choosetheme_Menu"), 0): Tapped on element 'Object Repository/ChooseTheme/Choosetheme_Menu'
+
+2022-10-03 13:50:22 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-03 13:50:25 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ChooseTheme/Choosetheme_Menu'
+
+2022-10-03 13:50:25 - [TEST_STEP][PASSED] - tap(findTestObject("ChooseTheme/Dark_RadioButton"), 0): Tapped on element 'Object Repository/ChooseTheme/Dark_RadioButton'
+
+2022-10-03 13:50:25 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-03 13:50:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ChooseTheme/Dark_RadioButton'
+
+2022-10-03 13:50:27 - [TEST_STEP][PASSED] - tap(findTestObject("ChooseTheme/OK_Button"), 0): Tapped on element 'Object Repository/ChooseTheme/OK_Button'
+
+2022-10-03 13:50:27 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-03 13:50:27 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ChooseTheme/OK_Button'
+
+2022-10-03 13:50:27 - [TEST_STEP][PASSED] - comment("Then user should see Dark Theme"): Then user should see Dark Theme
+
+2022-10-03 13:50:27 - [MESSAGE][INFO] - Then user should see Dark Theme
+
+2022-10-03 13:50:27 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("screenshot", []): Screenshot is taken
+
+2022-10-03 13:50:29 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-10-03 13:50:29 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-screenshot.png]]
+
+2022-10-03 13:50:29 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-10-03 13:50:34 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Calculator/ChooseTheme/ChooseTheme_Light" time="34.645" classname="Test Cases/Calculator/ChooseTheme/ChooseTheme_Light" status="PASSED">
+         <system-out><![CDATA[2022-10-03 13:50:34 - [TEST_CASE][PASSED] - Test Cases/Calculator/ChooseTheme/ChooseTheme_Light: Test Cases/Calculator/ChooseTheme/ChooseTheme_Light
+
+2022-10-03 13:50:34 - [TEST_STEP][PASSED] - comment("Story: Change Light Theme"): Story: Change Light Theme
+
+2022-10-03 13:50:34 - [MESSAGE][INFO] - Story: Change Light Theme
+
+2022-10-03 13:50:34 - [TEST_STEP][PASSED] - comment("Given that user has started an application"): Given that user has started an application
+
+2022-10-03 13:50:34 - [MESSAGE][INFO] - Given that user has started an application
+
+2022-10-03 13:50:34 - [TEST_STEP][PASSED] - startApplication("MobileApp/Calculator_v8.1.apk", false): Started app at: 'D:\MyProject Katalon\eduCalculator\MobileApp\Calculator_v8.1.apk'
+
+2022-10-03 13:50:34 - [MESSAGE][INFO] - User set preference: ['Activity', 'com.google.android.calculator']
+
+2022-10-03 13:50:34 - [MESSAGE][INFO] - User set preference: ['Package', 'com.google.android.calculator']
+
+2022-10-03 13:50:34 - [MESSAGE][INFO] - User set preference: ['noReset', 'true']
+
+2022-10-03 13:50:34 - [MESSAGE][INFO] - User set preference: ['deviceId', 'QWDEEMUOJRYDQSLV']
+
+2022-10-03 13:50:34 - [MESSAGE][INFO] - User set preference: ['appWaitDuration', '3,000']
+
+2022-10-03 13:50:35 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-10-03 13:50:44 - [MESSAGE][INFO] - Appium server started on port 1,688
+
+2022-10-03 13:50:59 - [MESSAGE][PASSED] - Started app at: 'D:\MyProject Katalon\eduCalculator\MobileApp\Calculator_v8.1.apk'
+
+2022-10-03 13:50:59 - [TEST_STEP][PASSED] - comment("When user change theme to light"): When user change theme to light
+
+2022-10-03 13:50:59 - [MESSAGE][INFO] - When user change theme to light
+
+2022-10-03 13:50:59 - [TEST_STEP][PASSED] - tap(findTestObject("ChooseTheme/dotThree_Button"), 0): Tapped on element 'Object Repository/ChooseTheme/dotThree_Button'
+
+2022-10-03 13:50:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-03 13:51:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ChooseTheme/dotThree_Button'
+
+2022-10-03 13:51:01 - [TEST_STEP][PASSED] - tap(findTestObject("ChooseTheme/Choosetheme_Menu"), 0): Tapped on element 'Object Repository/ChooseTheme/Choosetheme_Menu'
+
+2022-10-03 13:51:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-03 13:51:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ChooseTheme/Choosetheme_Menu'
+
+2022-10-03 13:51:03 - [TEST_STEP][PASSED] - tap(findTestObject("ChooseTheme/Light_RadioButton"), 0): Tapped on element 'Object Repository/ChooseTheme/Light_RadioButton'
+
+2022-10-03 13:51:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-03 13:51:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ChooseTheme/Light_RadioButton'
+
+2022-10-03 13:51:05 - [TEST_STEP][PASSED] - tap(findTestObject("ChooseTheme/OK_Button"), 0): Tapped on element 'Object Repository/ChooseTheme/OK_Button'
+
+2022-10-03 13:51:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-03 13:51:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ChooseTheme/OK_Button'
+
+2022-10-03 13:51:06 - [TEST_STEP][PASSED] - comment("Then user should see Light Theme"): Then user should see Light Theme
+
+2022-10-03 13:51:06 - [MESSAGE][INFO] - Then user should see Light Theme
+
+2022-10-03 13:51:06 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("screenshot", STOP_ON_FAILURE): Screenshot is taken
+
+2022-10-03 13:51:07 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-10-03 13:51:08 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-screenshot.png]]
+
+2022-10-03 13:51:08 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-10-03 13:51:08 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Calculator/ChooseTheme/ChooseTheme_System default" time="27.419" classname="Test Cases/Calculator/ChooseTheme/ChooseTheme_System default" status="PASSED">
+         <system-out><![CDATA[2022-10-03 13:51:09 - [TEST_CASE][PASSED] - Test Cases/Calculator/ChooseTheme/ChooseTheme_System default: Test Cases/Calculator/ChooseTheme/ChooseTheme_System default
+
+2022-10-03 13:51:09 - [TEST_STEP][PASSED] - comment("Story: Change Default Theme"): Story: Change Default Theme
+
+2022-10-03 13:51:09 - [MESSAGE][INFO] - Story: Change Default Theme
+
+2022-10-03 13:51:09 - [TEST_STEP][PASSED] - comment("Given that user has started an application"): Given that user has started an application
+
+2022-10-03 13:51:09 - [MESSAGE][INFO] - Given that user has started an application
+
+2022-10-03 13:51:09 - [TEST_STEP][PASSED] - startApplication("MobileApp/Calculator_v8.1.apk", false): Started app at: 'D:\MyProject Katalon\eduCalculator\MobileApp\Calculator_v8.1.apk'
+
+2022-10-03 13:51:09 - [MESSAGE][INFO] - User set preference: ['Activity', 'com.google.android.calculator']
+
+2022-10-03 13:51:09 - [MESSAGE][INFO] - User set preference: ['Package', 'com.google.android.calculator']
+
+2022-10-03 13:51:09 - [MESSAGE][INFO] - User set preference: ['noReset', 'true']
+
+2022-10-03 13:51:09 - [MESSAGE][INFO] - User set preference: ['deviceId', 'QWDEEMUOJRYDQSLV']
+
+2022-10-03 13:51:09 - [MESSAGE][INFO] - User set preference: ['appWaitDuration', '3,000']
+
+2022-10-03 13:51:09 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-10-03 13:51:13 - [MESSAGE][INFO] - Appium server started on port 1,821
+
+2022-10-03 13:51:28 - [MESSAGE][PASSED] - Started app at: 'D:\MyProject Katalon\eduCalculator\MobileApp\Calculator_v8.1.apk'
+
+2022-10-03 13:51:28 - [TEST_STEP][PASSED] - comment("When user change theme to default"): When user change theme to default
+
+2022-10-03 13:51:28 - [MESSAGE][INFO] - When user change theme to default
+
+2022-10-03 13:51:28 - [TEST_STEP][PASSED] - tap(findTestObject("ChooseTheme/dotThree_Button"), 0): Tapped on element 'Object Repository/ChooseTheme/dotThree_Button'
+
+2022-10-03 13:51:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-03 13:51:28 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ChooseTheme/dotThree_Button'
+
+2022-10-03 13:51:28 - [TEST_STEP][PASSED] - tap(findTestObject("ChooseTheme/Choosetheme_Menu"), 0): Tapped on element 'Object Repository/ChooseTheme/Choosetheme_Menu'
+
+2022-10-03 13:51:28 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-03 13:51:31 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ChooseTheme/Choosetheme_Menu'
+
+2022-10-03 13:51:31 - [TEST_STEP][PASSED] - tap(findTestObject("ChooseTheme/SystemDefault_RadioButton"), 0): Tapped on element 'Object Repository/ChooseTheme/SystemDefault_RadioButton'
+
+2022-10-03 13:51:31 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-03 13:51:32 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ChooseTheme/SystemDefault_RadioButton'
+
+2022-10-03 13:51:32 - [TEST_STEP][PASSED] - tap(findTestObject("ChooseTheme/OK_Button"), 0): Tapped on element 'Object Repository/ChooseTheme/OK_Button'
+
+2022-10-03 13:51:32 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-03 13:51:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/ChooseTheme/OK_Button'
+
+2022-10-03 13:51:33 - [TEST_STEP][PASSED] - comment("Then user should see Default Theme(Dark)"): Then user should see Default Theme(Dark)
+
+2022-10-03 13:51:33 - [MESSAGE][INFO] - Then user should see Default Theme(Dark)
+
+2022-10-03 13:51:33 - [TEST_STEP][PASSED] - takeScreenshotAsCheckpoint("screenshot", STOP_ON_FAILURE): Screenshot is taken
+
+2022-10-03 13:51:35 - [MESSAGE][INFO] - 0 hidden object(s)
+
+2022-10-03 13:51:35 - [MESSAGE][PASSED] - Screenshot is taken
+[[ATTACHMENT|keyes\keyes-screenshot.png]]
+
+2022-10-03 13:51:35 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-10-03 13:51:36 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Calculator/Do Calculations/TCC_01 Random Calculation" time="37.955" classname="Test Cases/Calculator/Do Calculations/TCC_01 Random Calculation" status="PASSED">
+         <system-out><![CDATA[2022-10-03 13:51:36 - [TEST_CASE][PASSED] - Test Cases/Calculator/Do Calculations/TCC_01 Random Calculation: Test Cases/Calculator/Do Calculations/TCC_01 Random Calculation
+
+2022-10-03 13:51:36 - [TEST_STEP][PASSED] - comment("Story: do calculation 10 plus 2 multiplication 5"): Story: do calculation 10 plus 2 multiplication 5
+
+2022-10-03 13:51:36 - [MESSAGE][INFO] - Story: do calculation 10 plus 2 multiplication 5
+
+2022-10-03 13:51:36 - [TEST_STEP][PASSED] - comment("Given that user has started an application"): Given that user has started an application
+
+2022-10-03 13:51:36 - [MESSAGE][INFO] - Given that user has started an application
+
+2022-10-03 13:51:36 - [TEST_STEP][PASSED] - startApplication("MobileApp/Calculator_v8.1.apk", false): Started app at: 'D:\MyProject Katalon\eduCalculator\MobileApp\Calculator_v8.1.apk'
+
+2022-10-03 13:51:36 - [MESSAGE][INFO] - User set preference: ['Activity', 'com.google.android.calculator']
+
+2022-10-03 13:51:36 - [MESSAGE][INFO] - User set preference: ['Package', 'com.google.android.calculator']
+
+2022-10-03 13:51:36 - [MESSAGE][INFO] - User set preference: ['noReset', 'true']
+
+2022-10-03 13:51:36 - [MESSAGE][INFO] - User set preference: ['deviceId', 'QWDEEMUOJRYDQSLV']
+
+2022-10-03 13:51:36 - [MESSAGE][INFO] - User set preference: ['appWaitDuration', '3,000']
+
+2022-10-03 13:51:37 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-10-03 13:51:42 - [MESSAGE][INFO] - Appium server started on port 1,951
+
+2022-10-03 13:51:56 - [MESSAGE][PASSED] - Started app at: 'D:\MyProject Katalon\eduCalculator\MobileApp\Calculator_v8.1.apk'
+
+2022-10-03 13:51:56 - [TEST_STEP][PASSED] - comment("When user do Calculation"): When user do Calculation
+
+2022-10-03 13:51:56 - [MESSAGE][INFO] - When user do Calculation
+
+2022-10-03 13:51:56 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/Button_1"), 0): Tapped on element 'Object Repository/Mobile/Button_1'
+
+2022-10-03 13:51:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-03 13:51:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Button_1'
+
+2022-10-03 13:51:58 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/Button_0"), 0): Tapped on element 'Object Repository/Mobile/Button_0'
+
+2022-10-03 13:51:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-03 13:52:00 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Button_0'
+
+2022-10-03 13:52:00 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/Button_Plus"), 0): Tapped on element 'Object Repository/Mobile/Button_Plus'
+
+2022-10-03 13:52:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-03 13:52:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Button_Plus'
+
+2022-10-03 13:52:02 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/Button_2"), 0): Tapped on element 'Object Repository/Mobile/Button_2'
+
+2022-10-03 13:52:02 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-03 13:52:03 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Button_2'
+
+2022-10-03 13:52:03 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/Button_Multiplication"), 0): Tapped on element 'Object Repository/Mobile/Button_Multiplication'
+
+2022-10-03 13:52:03 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-03 13:52:05 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Button_Multiplication'
+
+2022-10-03 13:52:05 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/Button_5"), 0): Tapped on element 'Object Repository/Mobile/Button_5'
+
+2022-10-03 13:52:05 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-03 13:52:06 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Button_5'
+
+2022-10-03 13:52:06 - [TEST_STEP][PASSED] - getText(findTestObject("TextView_TCC_01"), 0): Text of element 'Object Repository/TextView_TCC_01' is: '10+2×5'
+
+2022-10-03 13:52:06 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-03 13:52:07 - [MESSAGE][PASSED] - Text of element 'Object Repository/TextView_TCC_01' is: '10+2×5'
+
+2022-10-03 13:52:07 - [TEST_STEP][PASSED] - comment("Then user should see the result"): Then user should see the result
+
+2022-10-03 13:52:07 - [MESSAGE][INFO] - Then user should see the result
+
+2022-10-03 13:52:07 - [TEST_STEP][PASSED] - tap(findTestObject("Mobile/Button_Result"), 0): Tapped on element 'Object Repository/Mobile/Button_Result'
+
+2022-10-03 13:52:07 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-03 13:52:08 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/Mobile/Button_Result'
+
+2022-10-03 13:52:08 - [TEST_STEP][PASSED] - getText(findTestObject("TextView_Result_TCC_01"), 0): Text of element 'Object Repository/TextView_Result_TCC_01' is: '20'
+
+2022-10-03 13:52:08 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-03 13:52:08 - [MESSAGE][PASSED] - Text of element 'Object Repository/TextView_Result_TCC_01' is: '20'
+
+2022-10-03 13:52:08 - [TEST_STEP][PASSED] - delay(5, STOP_ON_FAILURE): Delayed 5 second(s)
+
+2022-10-03 13:52:13 - [MESSAGE][PASSED] - Delayed 5 second(s)
+
+2022-10-03 13:52:13 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-10-03 13:52:14 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Calculator/History/Clear_History" time="25.173" classname="Test Cases/Calculator/History/Clear_History" status="PASSED">
+         <system-out><![CDATA[2022-10-03 13:52:14 - [TEST_CASE][PASSED] - Test Cases/Calculator/History/Clear_History: Test Cases/Calculator/History/Clear_History
+
+2022-10-03 13:52:14 - [TEST_STEP][PASSED] - comment("Story: Clear History Calculator"): Story: Clear History Calculator
+
+2022-10-03 13:52:14 - [MESSAGE][INFO] - Story: Clear History Calculator
+
+2022-10-03 13:52:14 - [TEST_STEP][PASSED] - startApplication("MobileApp/Calculator_v8.1.apk", false): Started app at: 'D:\MyProject Katalon\eduCalculator\MobileApp\Calculator_v8.1.apk'
+
+2022-10-03 13:52:14 - [MESSAGE][INFO] - User set preference: ['Activity', 'com.google.android.calculator']
+
+2022-10-03 13:52:14 - [MESSAGE][INFO] - User set preference: ['Package', 'com.google.android.calculator']
+
+2022-10-03 13:52:14 - [MESSAGE][INFO] - User set preference: ['noReset', 'true']
+
+2022-10-03 13:52:14 - [MESSAGE][INFO] - User set preference: ['deviceId', 'QWDEEMUOJRYDQSLV']
+
+2022-10-03 13:52:14 - [MESSAGE][INFO] - User set preference: ['appWaitDuration', '3,000']
+
+2022-10-03 13:52:15 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-10-03 13:52:17 - [MESSAGE][INFO] - Appium server started on port 2,073
+
+2022-10-03 13:52:33 - [MESSAGE][PASSED] - Started app at: 'D:\MyProject Katalon\eduCalculator\MobileApp\Calculator_v8.1.apk'
+
+2022-10-03 13:52:33 - [TEST_STEP][PASSED] - tap(findTestObject("History/dotThree_Button"), 0): Tapped on element 'Object Repository/History/dotThree_Button'
+
+2022-10-03 13:52:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-03 13:52:33 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/History/dotThree_Button'
+
+2022-10-03 13:52:33 - [TEST_STEP][PASSED] - tap(findTestObject("History/History_Menu"), 0): Tapped on element 'Object Repository/History/History_Menu'
+
+2022-10-03 13:52:33 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-03 13:52:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/History/History_Menu'
+
+2022-10-03 13:52:36 - [TEST_STEP][PASSED] - tap(findTestObject("History/dotThree_Button_History"), 0): Tapped on element 'Object Repository/History/dotThree_Button_History'
+
+2022-10-03 13:52:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-03 13:52:36 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/History/dotThree_Button_History'
+
+2022-10-03 13:52:36 - [TEST_STEP][PASSED] - tap(findTestObject("History/OptionClear_Button_History"), 0): Tapped on element 'Object Repository/History/OptionClear_Button_History'
+
+2022-10-03 13:52:36 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-03 13:52:38 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/History/OptionClear_Button_History'
+
+2022-10-03 13:52:38 - [TEST_STEP][PASSED] - tap(findTestObject("History/Clear_Button"), 0): Tapped on element 'Object Repository/History/Clear_Button'
+
+2022-10-03 13:52:38 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-03 13:52:39 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/History/Clear_Button'
+
+2022-10-03 13:52:39 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-10-03 13:52:39 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/Calculator/History/Dismiss_History" time="23.057" classname="Test Cases/Calculator/History/Dismiss_History" status="PASSED">
+         <system-out><![CDATA[2022-10-03 13:52:39 - [TEST_CASE][PASSED] - Test Cases/Calculator/History/Dismiss_History: Test Cases/Calculator/History/Dismiss_History
+
+2022-10-03 13:52:40 - [TEST_STEP][PASSED] - startApplication("MobileApp/Calculator_v8.1.apk", false): Started app at: 'D:\MyProject Katalon\eduCalculator\MobileApp\Calculator_v8.1.apk'
+
+2022-10-03 13:52:40 - [MESSAGE][INFO] - User set preference: ['Activity', 'com.google.android.calculator']
+
+2022-10-03 13:52:40 - [MESSAGE][INFO] - User set preference: ['Package', 'com.google.android.calculator']
+
+2022-10-03 13:52:40 - [MESSAGE][INFO] - User set preference: ['noReset', 'true']
+
+2022-10-03 13:52:40 - [MESSAGE][INFO] - User set preference: ['deviceId', 'QWDEEMUOJRYDQSLV']
+
+2022-10-03 13:52:40 - [MESSAGE][INFO] - User set preference: ['appWaitDuration', '3,000']
+
+2022-10-03 13:52:40 - [MESSAGE][INFO] - Detected NodeJS location: "C:\Program Files\nodejs\node.exe"
+
+2022-10-03 13:52:43 - [MESSAGE][INFO] - Appium server started on port 2,191
+
+2022-10-03 13:52:56 - [MESSAGE][PASSED] - Started app at: 'D:\MyProject Katalon\eduCalculator\MobileApp\Calculator_v8.1.apk'
+
+2022-10-03 13:52:56 - [TEST_STEP][PASSED] - tap(findTestObject("History/dotThree_Button"), 0): Tapped on element 'Object Repository/History/dotThree_Button'
+
+2022-10-03 13:52:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-03 13:52:56 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/History/dotThree_Button'
+
+2022-10-03 13:52:56 - [TEST_STEP][PASSED] - tap(findTestObject("History/History_Menu"), 0): Tapped on element 'Object Repository/History/History_Menu'
+
+2022-10-03 13:52:56 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-03 13:52:58 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/History/History_Menu'
+
+2022-10-03 13:52:58 - [TEST_STEP][PASSED] - tap(findTestObject("History/dotThree_Button_History"), 0): Tapped on element 'Object Repository/History/dotThree_Button_History'
+
+2022-10-03 13:52:58 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-03 13:52:59 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/History/dotThree_Button_History'
+
+2022-10-03 13:52:59 - [TEST_STEP][PASSED] - tap(findTestObject("History/OptionClear_Button_History"), 0): Tapped on element 'Object Repository/History/OptionClear_Button_History'
+
+2022-10-03 13:52:59 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-03 13:53:01 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/History/OptionClear_Button_History'
+
+2022-10-03 13:53:01 - [TEST_STEP][PASSED] - tap(findTestObject("History/Dismiss_Button"), 0): Tapped on element 'Object Repository/History/Dismiss_Button'
+
+2022-10-03 13:53:01 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '30'
+
+2022-10-03 13:53:02 - [MESSAGE][PASSED] - Tapped on element 'Object Repository/History/Dismiss_Button'
+
+2022-10-03 13:53:02 - [TEST_STEP][PASSED] - closeApplication(): Close app successfully
+
+2022-10-03 13:53:02 - [MESSAGE][PASSED] - Close app successfully]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2022-10-03 13:49:33 - [TEST_SUITE][PASSED] - Regression Tests: Test Cases/Calculator/History/Dismiss_History]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

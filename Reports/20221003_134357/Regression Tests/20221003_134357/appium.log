@@ -1,0 +1,249 @@
+[35m[Appium][39m Welcome to Appium v1.22.3
+[35m[Appium][39m Non-default server args:
+[35m[Appium][39m   port: 1100
+[35m[Appium][39m   loglevel: info
+[35m[Appium][39m   tmpDir: C:\Users\user\AppData\Local\Temp\\Katalon\Appium\Temp1664779463423
+[35m[Appium][39m   chromedriverPort: 1110
+[35m[Appium][39m Deprecated server args:
+[35m[Appium][39m   [31m--chromedriver-port[39m => --default-capabilities
+[35m[Appium][39m Default capabilities, which will be added to each request unless overridden by desired capabilities:
+[35m[Appium][39m   chromedriverPort: 1110
+[35m[Appium][39m Appium REST http interface listener started on 0.0.0.0:1100
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m99 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session[39m
+[35m[HTTP][39m [90m{"desiredCapabilities":{"app":"D:\\MyProject Katalon\\eduCalculator\\MobileApp\\Calculator_v8.1.apk","noReset":true,"Activity":"com.google.android.calculator","deviceId":"QWDEEMUOJRYDQSLV","deviceName":"realme RMX2180 (Android 11)","fullReset":false,"platform":"ANDROID","appWaitDuration":3000,"newCommandTimeout":1800,"platformVersion":"11","automationName":"uiautomator2","autoGrantPermissions":true,"Package":"com.google.android.calculator","platformName":"Android","udid":"QWDEEMUOJRYDQSLV","systemPort":1157},"capabilities":{"firstMatch":[{"Activity":"com.google.android.calculator","Package":"com.google.android.calculator","appium:app":"D:\\MyProject Katalon\\eduCalculator\\MobileApp\\Calculator_v8.1.apk","appium:appWaitDuration":3000,"appium:autoGrantPermissions":true,"appium:automationName":"uiautomator2","deviceId":"QWDEEMUOJRYDQSLV","appium:deviceName":"realme RMX2180 (Android 11)","appium:fullReset":false,"appium:newCommandTimeout":1800,"appium:noReset":true,"platform":"ANDROID","platformName":"android...[39m
+[35m[BaseDriver][39m The following capabilities are not standard capabilities and should have an extension prefix:
+[35m[BaseDriver][39m   Activity
+[35m[BaseDriver][39m   Package
+[35m[BaseDriver][39m   deviceId
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m   chromedriverPort
+[35m[Appium][39m Appium v1.22.3 creating new AndroidUiautomator2Driver (v1.70.1) session
+[35m[BaseDriver][39m The following capabilities were provided, but are not recognized by Appium:
+[35m[BaseDriver][39m   Activity
+[35m[BaseDriver][39m   Package
+[35m[BaseDriver][39m   deviceId
+[35m[BaseDriver][39m   platform
+[35m[BaseDriver][39m Session created with session id: fe44730e-c85d-4c4d-b386-240007899eed
+[35m[BaseDriver][39m Using local app 'D:\MyProject Katalon\eduCalculator\MobileApp\Calculator_v8.1.apk'
+[35m[ADB][39m Found 1 'build-tools' folders under 'C:\Users\user\AppData\Local\Android\Sdk' (newest first):
+[35m[ADB][39m     C:/Users/user/AppData/Local/Android/Sdk/build-tools/33.0.0
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\user\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[35m[AndroidDriver][39m Retrieving device list
+[35m[AndroidDriver][39m Using device: QWDEEMUOJRYDQSLV
+[35m[ADB][39m Using 'adb.exe' from 'C:\Users\user\AppData\Local\Android\Sdk\platform-tools\adb.exe'
+[35m[ADB][39m Getting device platform version
+[35m[UiAutomator2][39m Relaxing hidden api policy
+[35m[ADB][39m Package name: 'com.google.android.calculator'
+[35m[ADB][39m Main activity name: 'com.android.calculator2.Calculator'
+[35m[ADB][39m Using 'apksigner.jar' from 'C:\Users\user\AppData\Local\Android\Sdk\build-tools\33.0.0\lib\apksigner.jar'
+[35m[ADB][39m 'C:\Users\user\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' is signed with the default certificate
+[35m[ADB][39m 'C:\Users\user\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk' is signed with the default certificate
+[35m[UiAutomator2][39m Server packages are not going to be (re)installed
+[35m[ADB][39m Adding packages ["io.appium.settings","io.appium.uiautomator2.server","io.appium.uiautomator2.server.test"] to Doze whitelist
+[35m[ADB][39m 'D:\MyProject Katalon\eduCalculator\MobileApp\Calculator_v8.1.apk' is signed with a non-default certificate
+[35m[UiAutomator2][39m Starting UIAutomator2 server 4.27.0
+[35m[UiAutomator2][39m Using UIAutomator2 server from 'C:\Users\user\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-v4.27.0.apk' and test from 'C:\Users\user\AppData\Roaming\npm\node_modules\appium\node_modules\appium-uiautomator2-server\apks\appium-uiautomator2-server-debug-androidTest.apk'
+[35m[UiAutomator2][39m Waiting up to 30000ms for UiAutomator2 to be online...
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m socket hang up
+[35m[WD Proxy][39m Determined the downstream protocol as 'W3C'
+[35m[AndroidDriver][39m Screen already unlocked, doing nothing
+[35m[UiAutomator2][39m Starting 'com.google.android.calculator/com.android.calculator2.Calculator and waiting for 'com.google.android.calculator/com.android.calculator2.Calculator'
+[35m[Appium][39m New AndroidUiautomator2Driver session created successfully, session fe44730e-c85d-4c4d-b386-240007899eed added to master session list
+[35m[HTTP][39m [37m<-- POST /wd/hub/session [39m[32m200[39m [90m26025 ms - 1583[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed [39m[32m200[39m [90m20 ms - 1537[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed [39m[32m200[39m [90m17 ms - 1537[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/status[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/status [39m[32m200[39m [90m1 ms - 68[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/timeouts [39m[32m200[39m [90m6 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/screenshot[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/screenshot [39m[32m200[39m [90m724 ms - 96708[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/window/rect [39m[32m200[39m [90m30 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/appium/device/system_bars[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/appium/device/system_bars [39m[32m200[39m [90m287 ms - 145[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/timeouts [39m[32m200[39m [90m3 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/window/rect [39m[32m200[39m [90m20 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements[39m
+[35m[HTTP][39m [90m{"using":"accessibility id","value":"More options"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements [39m[32m200[39m [90m123 ms - 139[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/element/00000000-0000-22e9-ffff-ffff0000007f/location[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[W3C (fe44730e)][39m Driver proxy active, passing request on via HTTP proxy
+[35m[WD Proxy][39m Replacing sessionId 56d67a42-5680-4d92-9083-8c6842599e13 with fe44730e-c85d-4c4d-b386-240007899eed
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/element/00000000-0000-22e9-ffff-ffff0000007f/location [39m[32m200[39m [90m1364 ms - 77[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":30000}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/timeouts [39m[32m200[39m [90m1 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/element/00000000-0000-22e9-ffff-ffff0000007f/click[39m
+[35m[HTTP][39m [90m{"id":"00000000-0000-22e9-ffff-ffff0000007f"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/element/00000000-0000-22e9-ffff-ffff0000007f/click [39m[32m200[39m [90m1843 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/timeouts[39m
+[35m[HTTP][39m [90m{"implicit":50}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/timeouts [39m[32m200[39m [90m2 ms - 14[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mGET[39m [37m/wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/window/rect[39m
+[35m[HTTP][39m [90m{}[39m
+[35m[HTTP][39m [37m<-- GET /wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/window/rect [39m[32m200[39m [90m36 ms - 49[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Choose theme' or . = 'Choose theme') and @resource-id = 'com.google.android.calculator:id/title']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements [39m[32m200[39m [90m3263 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Choose theme' or . = 'Choose theme') and @resource-id = 'com.google.android.calculator:id/title']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements [39m[32m200[39m [90m939 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Choose theme' or . = 'Choose theme') and @resource-id = 'com.google.android.calculator:id/title']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements [39m[32m200[39m [90m755 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Choose theme' or . = 'Choose theme') and @resource-id = 'com.google.android.calculator:id/title']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements [39m[32m200[39m [90m662 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Choose theme' or . = 'Choose theme') and @resource-id = 'com.google.android.calculator:id/title']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements [39m[32m200[39m [90m637 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Choose theme' or . = 'Choose theme') and @resource-id = 'com.google.android.calculator:id/title']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements [39m[32m200[39m [90m476 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Choose theme' or . = 'Choose theme') and @resource-id = 'com.google.android.calculator:id/title']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements [39m[32m200[39m [90m532 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Choose theme' or . = 'Choose theme') and @resource-id = 'com.google.android.calculator:id/title']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements [39m[32m200[39m [90m504 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Choose theme' or . = 'Choose theme') and @resource-id = 'com.google.android.calculator:id/title']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements [39m[32m200[39m [90m509 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Choose theme' or . = 'Choose theme') and @resource-id = 'com.google.android.calculator:id/title']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements [39m[32m200[39m [90m443 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Choose theme' or . = 'Choose theme') and @resource-id = 'com.google.android.calculator:id/title']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements [39m[32m200[39m [90m467 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Choose theme' or . = 'Choose theme') and @resource-id = 'com.google.android.calculator:id/title']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements [39m[32m200[39m [90m556 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Choose theme' or . = 'Choose theme') and @resource-id = 'com.google.android.calculator:id/title']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements [39m[32m200[39m [90m481 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Choose theme' or . = 'Choose theme') and @resource-id = 'com.google.android.calculator:id/title']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements [39m[32m200[39m [90m393 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Choose theme' or . = 'Choose theme') and @resource-id = 'com.google.android.calculator:id/title']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements [39m[32m200[39m [90m382 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Choose theme' or . = 'Choose theme') and @resource-id = 'com.google.android.calculator:id/title']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements [39m[32m200[39m [90m372 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Choose theme' or . = 'Choose theme') and @resource-id = 'com.google.android.calculator:id/title']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements [39m[32m200[39m [90m430 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Choose theme' or . = 'Choose theme') and @resource-id = 'com.google.android.calculator:id/title']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements [39m[32m200[39m [90m479 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Choose theme' or . = 'Choose theme') and @resource-id = 'com.google.android.calculator:id/title']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements [39m[32m200[39m [90m560 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Choose theme' or . = 'Choose theme') and @resource-id = 'com.google.android.calculator:id/title']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements [39m[32m200[39m [90m537 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Choose theme' or . = 'Choose theme') and @resource-id = 'com.google.android.calculator:id/title']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements [39m[32m200[39m [90m488 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Choose theme' or . = 'Choose theme') and @resource-id = 'com.google.android.calculator:id/title']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements [39m[32m200[39m [90m556 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Choose theme' or . = 'Choose theme') and @resource-id = 'com.google.android.calculator:id/title']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements [39m[32m200[39m [90m444 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Choose theme' or . = 'Choose theme') and @resource-id = 'com.google.android.calculator:id/title']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements [39m[32m200[39m [90m467 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Choose theme' or . = 'Choose theme') and @resource-id = 'com.google.android.calculator:id/title']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements [39m[32m200[39m [90m549 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Choose theme' or . = 'Choose theme') and @resource-id = 'com.google.android.calculator:id/title']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements [39m[32m200[39m [90m469 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Choose theme' or . = 'Choose theme') and @resource-id = 'com.google.android.calculator:id/title']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements [39m[32m200[39m [90m463 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Choose theme' or . = 'Choose theme') and @resource-id = 'com.google.android.calculator:id/title']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements [39m[32m200[39m [90m465 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Choose theme' or . = 'Choose theme') and @resource-id = 'com.google.android.calculator:id/title']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements [39m[32m200[39m [90m505 ms - 12[39m
+[35m[HTTP][39m [90m[39m
+[35m[HTTP][39m [37m-->[39m [37mPOST[39m [37m/wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements[39m
+[35m[HTTP][39m [90m{"using":"xpath","value":"//*[@class = 'android.widget.TextView' and (@text = 'Choose theme' or . = 'Choose theme') and @resource-id = 'com.google.android.calculator:id/title']"}[39m
+[35m[HTTP][39m [37m<-- POST /wd/hub/session/fe44730e-c85d-4c4d-b386-240007899eed/elements [39m[32m-[39m [90m- ms - -[39m
+[35m[HTTP][39m [90m[39m
+[35m[BaseDriver][39m Shutting down because we waited 1800 seconds for a command
+[35m[Appium][39m Closing session, cause was 'New Command Timeout of 1800 seconds expired. Try customizing the timeout using the 'newCommandTimeout' desired capability'
+[35m[Appium][39m Removing session 'fe44730e-c85d-4c4d-b386-240007899eed' from our master session list
+[35m[UiAutomator2][39m Did not get confirmation UiAutomator2 deleteSession worked; Error was: UnknownError: An unknown server-side error occurred while processing the command. Original error: 'DELETE /' cannot be proxied to UiAutomator2 server because the instrumentation process is not running (probably crashed). Check the server log and/or the logcat output for more details
+[35m[UiAutomator2][39m Restoring hidden api policy to the device default configuration

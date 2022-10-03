@@ -1,0 +1,78 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+Regression Tests,,,,2022-10-03 13:49:33,2022-10-03 13:53:02,3m - 29.516s,PASSED
+,,,,,,,
+Test Cases/Calculator/ChooseTheme/ChooseTheme_Dark,,,,2022-10-03 13:49:33,2022-10-03 13:50:34,1m - 0.490s,PASSED
+"comment(""Story: Change Dark Theme"")",,,,2022-10-03 13:49:34,2022-10-03 13:49:34,0.096s,PASSED
+"comment(""Given that user has started an application"")",,,,2022-10-03 13:49:34,2022-10-03 13:49:34,0.010s,PASSED
+"startApplication(""MobileApp/Calculator_v8.1.apk"", false)",,,,2022-10-03 13:49:34,2022-10-03 13:50:21,47.172s,PASSED
+"comment(""When user change theme to dark"")",,,,2022-10-03 13:50:21,2022-10-03 13:50:21,0.012s,PASSED
+"tap(findTestObject(""ChooseTheme/dotThree_Button""), 0)",,,,2022-10-03 13:50:21,2022-10-03 13:50:22,0.944s,PASSED
+"tap(findTestObject(""ChooseTheme/Choosetheme_Menu""), 0)",,,,2022-10-03 13:50:22,2022-10-03 13:50:25,2.570s,PASSED
+"tap(findTestObject(""ChooseTheme/Dark_RadioButton""), 0)",,,,2022-10-03 13:50:25,2022-10-03 13:50:27,2.208s,PASSED
+"tap(findTestObject(""ChooseTheme/OK_Button""), 0)",,,,2022-10-03 13:50:27,2022-10-03 13:50:27,0.439s,PASSED
+"comment(""Then user should see Dark Theme"")",,,,2022-10-03 13:50:27,2022-10-03 13:50:27,0.017s,PASSED
+"takeScreenshotAsCheckpoint(""screenshot"", [])",,,,2022-10-03 13:50:27,2022-10-03 13:50:29,1.772s,PASSED
+closeApplication(),,,,2022-10-03 13:50:29,2022-10-03 13:50:34,4.668s,PASSED
+,,,,,,,
+Test Cases/Calculator/ChooseTheme/ChooseTheme_Light,,,,2022-10-03 13:50:34,2022-10-03 13:51:08,34.645s,PASSED
+"comment(""Story: Change Light Theme"")",,,,2022-10-03 13:50:34,2022-10-03 13:50:34,0.005s,PASSED
+"comment(""Given that user has started an application"")",,,,2022-10-03 13:50:34,2022-10-03 13:50:34,0.006s,PASSED
+"startApplication(""MobileApp/Calculator_v8.1.apk"", false)",,open application,,2022-10-03 13:50:34,2022-10-03 13:50:59,24.988s,PASSED
+"comment(""When user change theme to light"")",,,,2022-10-03 13:50:59,2022-10-03 13:50:59,0.005s,PASSED
+"tap(findTestObject(""ChooseTheme/dotThree_Button""), 0)",,click ThreeButton,,2022-10-03 13:50:59,2022-10-03 13:51:01,1.633s,PASSED
+"tap(findTestObject(""ChooseTheme/Choosetheme_Menu""), 0)",,click choosetheme menu,,2022-10-03 13:51:01,2022-10-03 13:51:03,2.031s,PASSED
+"tap(findTestObject(""ChooseTheme/Light_RadioButton""), 0)",,click Light checkbox button,,2022-10-03 13:51:03,2022-10-03 13:51:05,2.456s,PASSED
+"tap(findTestObject(""ChooseTheme/OK_Button""), 0)",,click OK,,2022-10-03 13:51:05,2022-10-03 13:51:06,0.951s,PASSED
+"comment(""Then user should see Light Theme"")",,,,2022-10-03 13:51:06,2022-10-03 13:51:06,0.006s,PASSED
+"takeScreenshotAsCheckpoint(""screenshot"", STOP_ON_FAILURE)",,,,2022-10-03 13:51:06,2022-10-03 13:51:08,1.451s,PASSED
+closeApplication(),,,,2022-10-03 13:51:08,2022-10-03 13:51:08,0.681s,PASSED
+,,,,,,,
+Test Cases/Calculator/ChooseTheme/ChooseTheme_System default,,,,2022-10-03 13:51:09,2022-10-03 13:51:36,27.419s,PASSED
+"comment(""Story: Change Default Theme"")",,,,2022-10-03 13:51:09,2022-10-03 13:51:09,0.002s,PASSED
+"comment(""Given that user has started an application"")",,,,2022-10-03 13:51:09,2022-10-03 13:51:09,0.003s,PASSED
+"startApplication(""MobileApp/Calculator_v8.1.apk"", false)",,,,2022-10-03 13:51:09,2022-10-03 13:51:28,18.738s,PASSED
+"comment(""When user change theme to default"")",,,,2022-10-03 13:51:28,2022-10-03 13:51:28,0.005s,PASSED
+"tap(findTestObject(""ChooseTheme/dotThree_Button""), 0)",,,,2022-10-03 13:51:28,2022-10-03 13:51:28,0.419s,PASSED
+"tap(findTestObject(""ChooseTheme/Choosetheme_Menu""), 0)",,,,2022-10-03 13:51:28,2022-10-03 13:51:31,2.710s,PASSED
+"tap(findTestObject(""ChooseTheme/SystemDefault_RadioButton""), 0)",,,,2022-10-03 13:51:31,2022-10-03 13:51:32,1.058s,PASSED
+"tap(findTestObject(""ChooseTheme/OK_Button""), 0)",,,,2022-10-03 13:51:32,2022-10-03 13:51:33,1.688s,PASSED
+"comment(""Then user should see Default Theme(Dark)"")",,,,2022-10-03 13:51:33,2022-10-03 13:51:33,0.003s,PASSED
+"takeScreenshotAsCheckpoint(""screenshot"", STOP_ON_FAILURE)",,,,2022-10-03 13:51:33,2022-10-03 13:51:35,1.616s,PASSED
+closeApplication(),,,,2022-10-03 13:51:35,2022-10-03 13:51:36,0.861s,PASSED
+,,,,,,,
+Test Cases/Calculator/Do Calculations/TCC_01 Random Calculation,,,,2022-10-03 13:51:36,2022-10-03 13:52:14,37.955s,PASSED
+"comment(""Story: do calculation 10 plus 2 multiplication 5"")",,,,2022-10-03 13:51:36,2022-10-03 13:51:36,0.002s,PASSED
+"comment(""Given that user has started an application"")",,,,2022-10-03 13:51:36,2022-10-03 13:51:36,0.002s,PASSED
+"startApplication(""MobileApp/Calculator_v8.1.apk"", false)",,,,2022-10-03 13:51:36,2022-10-03 13:51:56,19.588s,PASSED
+"comment(""When user do Calculation"")",,,,2022-10-03 13:51:56,2022-10-03 13:51:56,0.002s,PASSED
+"tap(findTestObject(""Mobile/Button_1""), 0)",,,,2022-10-03 13:51:56,2022-10-03 13:51:58,1.966s,PASSED
+"tap(findTestObject(""Mobile/Button_0""), 0)",,,,2022-10-03 13:51:58,2022-10-03 13:52:00,2.508s,PASSED
+"tap(findTestObject(""Mobile/Button_Plus""), 0)",,,,2022-10-03 13:52:00,2022-10-03 13:52:02,1.394s,PASSED
+"tap(findTestObject(""Mobile/Button_2""), 0)",,,,2022-10-03 13:52:02,2022-10-03 13:52:03,0.997s,PASSED
+"tap(findTestObject(""Mobile/Button_Multiplication""), 0)",,,,2022-10-03 13:52:03,2022-10-03 13:52:05,2.349s,PASSED
+"tap(findTestObject(""Mobile/Button_5""), 0)",,,,2022-10-03 13:52:05,2022-10-03 13:52:06,1.025s,PASSED
+"getText(findTestObject(""TextView_TCC_01""), 0)",,,,2022-10-03 13:52:06,2022-10-03 13:52:07,0.410s,PASSED
+"comment(""Then user should see the result"")",,,,2022-10-03 13:52:07,2022-10-03 13:52:07,0.007s,PASSED
+"tap(findTestObject(""Mobile/Button_Result""), 0)",,,,2022-10-03 13:52:07,2022-10-03 13:52:08,1.407s,PASSED
+"getText(findTestObject(""TextView_Result_TCC_01""), 0)",,,,2022-10-03 13:52:08,2022-10-03 13:52:08,0.344s,PASSED
+"delay(5, STOP_ON_FAILURE)",,,,2022-10-03 13:52:08,2022-10-03 13:52:13,5.037s,PASSED
+closeApplication(),,,,2022-10-03 13:52:13,2022-10-03 13:52:14,0.574s,PASSED
+,,,,,,,
+Test Cases/Calculator/History/Clear_History,,,,2022-10-03 13:52:14,2022-10-03 13:52:39,25.173s,PASSED
+"comment(""Story: Clear History Calculator"")",,,,2022-10-03 13:52:14,2022-10-03 13:52:14,0.003s,PASSED
+"startApplication(""MobileApp/Calculator_v8.1.apk"", false)",,,,2022-10-03 13:52:14,2022-10-03 13:52:33,18.261s,PASSED
+"tap(findTestObject(""History/dotThree_Button""), 0)",,,,2022-10-03 13:52:33,2022-10-03 13:52:33,0.487s,PASSED
+"tap(findTestObject(""History/History_Menu""), 0)",,,,2022-10-03 13:52:33,2022-10-03 13:52:36,2.709s,PASSED
+"tap(findTestObject(""History/dotThree_Button_History""), 0)",,,,2022-10-03 13:52:36,2022-10-03 13:52:36,0.507s,PASSED
+"tap(findTestObject(""History/OptionClear_Button_History""), 0)",,,,2022-10-03 13:52:36,2022-10-03 13:52:38,1.813s,PASSED
+"tap(findTestObject(""History/Clear_Button""), 0)",,,,2022-10-03 13:52:38,2022-10-03 13:52:39,0.444s,PASSED
+closeApplication(),,,,2022-10-03 13:52:39,2022-10-03 13:52:39,0.612s,PASSED
+,,,,,,,
+Test Cases/Calculator/History/Dismiss_History,,,,2022-10-03 13:52:39,2022-10-03 13:53:02,23.057s,PASSED
+"startApplication(""MobileApp/Calculator_v8.1.apk"", false)",,,,2022-10-03 13:52:40,2022-10-03 13:52:56,15.605s,PASSED
+"tap(findTestObject(""History/dotThree_Button""), 0)",,,,2022-10-03 13:52:56,2022-10-03 13:52:56,0.346s,PASSED
+"tap(findTestObject(""History/History_Menu""), 0)",,,,2022-10-03 13:52:56,2022-10-03 13:52:58,1.981s,PASSED
+"tap(findTestObject(""History/dotThree_Button_History""), 0)",,,,2022-10-03 13:52:58,2022-10-03 13:52:59,1.004s,PASSED
+"tap(findTestObject(""History/OptionClear_Button_History""), 0)",,,,2022-10-03 13:52:59,2022-10-03 13:53:01,1.797s,PASSED
+"tap(findTestObject(""History/Dismiss_Button""), 0)",,,,2022-10-03 13:53:01,2022-10-03 13:53:02,0.923s,PASSED
+closeApplication(),,,,2022-10-03 13:53:02,2022-10-03 13:53:02,0.536s,PASSED
