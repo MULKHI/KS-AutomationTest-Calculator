@@ -1,5 +1,6 @@
 # KS-AutomationTest-Calculator
 Katalon Studio Automation test Mobile App Calculator
+Here I don't use an emulator but use a real device to do testing
 
 ## Why using Katalon Studio for Automation Testing
 Katalon’s main advantage is its ease of deployment and a wider set of integrations compared to Selenium, the market leader. Katalon has dual scripting interfaces for users with different programming skills. This means that testers with limited technical knowledge can use a simpler user interface that doesn’t require writing code.
