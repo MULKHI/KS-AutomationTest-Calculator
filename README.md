@@ -27,6 +27,6 @@ You can see how to setup via real device click the link below :
 
 ![Screenshot (354)](https://user-images.githubusercontent.com/80143004/194079703-9ea62168-1b88-492e-b0a9-1f9e0c14bb91.png)
 
-3. Run file Regression in Android
+3. Run file Regression in Android, Click Run and choose Android
 
 ![Screenshot (357)](https://user-images.githubusercontent.com/80143004/194080241-76217433-669e-441d-b6d2-1f8a6a092537.png)
