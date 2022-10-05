@@ -31,5 +31,7 @@ Mobile.tap(findTestObject('History/OptionClear_Button_History'), 0)
 
 Mobile.tap(findTestObject('History/Clear_Button'), 0)
 
+Mobile.takeScreenshotAsCheckpoint('screenshot', FailureHandling.STOP_ON_FAILURE)
+
 Mobile.closeApplication()
 
