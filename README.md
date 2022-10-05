@@ -1,5 +1,6 @@
 # KS-AutomationTest-Calculator
 Katalon Studio Automation test Mobile App Calculator
+
 Here I don't use an emulator but use a real device to do testing
 
 ## Why using Katalon Studio for Automation Testing
