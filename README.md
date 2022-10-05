@@ -25,6 +25,4 @@ You can see how to setup via real device click the link below :
 1. Open this repository in your Katalon Studio
 2. Click folder Test Suites and open file Regression Test
 
-![Screenshot (355)](https://user-images.githubusercontent.com/80143004/194079094-5efd7436-950e-4f65-89f4-1d48811fa6a3.png)
-
 ![Screenshot (354)](https://user-images.githubusercontent.com/80143004/194079703-9ea62168-1b88-492e-b0a9-1f9e0c14bb91.png)
