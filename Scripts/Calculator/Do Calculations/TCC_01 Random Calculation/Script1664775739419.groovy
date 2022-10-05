@@ -45,7 +45,7 @@ Mobile.tap(findTestObject('Mobile/Button_Result'), 0)
 
 Mobile.getText(findTestObject('TextView_Result_TCC_01'), 0)
 
-Mobile.delay(5, FailureHandling.STOP_ON_FAILURE)
+Mobile.takeScreenshotAsCheckpoint('screenshot', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.closeApplication()
 
