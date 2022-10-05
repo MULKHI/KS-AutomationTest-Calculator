@@ -7,3 +7,10 @@ Katalon’s main advantage is its ease of deployment and a wider set of integrat
 ### How to Run this project
 You can clone my github repository, if you don't know how to clone the repository click the link below :
 - [x] https://docs.github.com/en/repositories/creating-and-managing-repositories/cloning-a-repository
+
+Before doing the step by step below there are pre-conditions that must be done :
+- Install NodeJS & NPM
+- Install .NET Framework
+- Install Java
+- Install Android studio to get SDK
+- Install Appium
