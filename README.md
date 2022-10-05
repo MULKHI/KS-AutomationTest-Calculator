@@ -14,3 +14,7 @@ Before doing the step by step below there are pre-conditions that must be done :
 - Install Java
 - Install Android studio to get SDK
 - Install Appium
+
+Setting up on your real device
+You can see how to setup via real device click the link below :
+- [x] https://docs.katalon.com/docs/legacy/katalon-studio-enterprise/create-tests-and-projects/configure-test-cases/mobile-testing/android/mobile-android-setup
