@@ -35,7 +35,7 @@ Mobile.tap(findTestObject('ChooseTheme/OK_Button'), 0)
 
 Mobile.comment('Then user should see Dark Theme')
 
-Mobile.takeScreenshotAsCheckpoint('screenshot', [])
+Mobile.takeScreenshotAsCheckpoint('screenshot', FailureHandling.STOP_ON_FAILURE)
 
 Mobile.closeApplication()
 
